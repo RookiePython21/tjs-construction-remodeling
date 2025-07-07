@@ -19,7 +19,7 @@ export default function PlansDesignPage() {
       />
       <div className="max-w-3xl mx-auto px-4 py-16 text-center">
         <p className="text-lg text-gray-700 mb-8">
-          Every great remodel starts with a solid plan. Our design experts work with you to create a vision that fits your style, needs, and budget. From initial sketches to detailed blueprints, we make sure your project starts off right. Need inspiration? Check out our gallery below to see what's possible!
+          Every great remodel starts with a solid plan. Our design experts work with you to create a vision that fits your style, needs, and budget. From initial sketches to detailed blueprints, we make sure your project starts off right. Need inspiration? Check out our gallery below to see what&apos;s possible!
         </p>
         <button
           onClick={openForm}

@@ -19,7 +19,7 @@ export default function KitchenRemodelingPage() {
       />
       <div className="max-w-3xl mx-auto px-4 py-16 text-center">
         <p className="text-lg text-gray-700 mb-8">
-          Transform your kitchen into a space that inspires creativity and brings your family together. Our team specializes in custom kitchen remodels that blend style, function, and quality craftsmanship. Whether you want a modern update or a classic look, we'll help you design and build a kitchen you'll love for years to come. Need ideas? Browse our gallery below for inspiration!
+          Transform your kitchen into a space that inspires creativity and brings your family together. Our team specializes in custom kitchen remodels that blend style, function, and quality craftsmanship. Whether you want a modern update or a classic look, we&apos;ll help you design and build a kitchen you&apos;ll love for years to come. Need ideas? Browse our gallery below for inspiration!
         </p>
         <button
           onClick={openForm}

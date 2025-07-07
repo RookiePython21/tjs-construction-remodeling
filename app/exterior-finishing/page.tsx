@@ -19,7 +19,7 @@ export default function ExteriorFinishingPage() {
       />
       <div className="max-w-3xl mx-auto px-4 py-16 text-center">
         <p className="text-lg text-gray-700 mb-8">
-          Enhance your home's curb appeal and protect it from the elements with our expert exterior finishing services. From siding to trim, we use quality materials and skilled craftsmanship for lasting results. Browse our gallery below to see how we can transform your home's exterior!
+          Enhance your home&apos;s curb appeal and protect it from the elements with our expert exterior finishing services. From siding to trim, we use quality materials and skilled craftsmanship for lasting results. Browse our gallery below to see how we can transform your home&apos;s exterior!
         </p>
         <button
           onClick={openForm}
