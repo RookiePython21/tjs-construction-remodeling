@@ -6,9 +6,8 @@ import Link from 'next/link';
 
 const navLinks = [
   { name: 'GALLERY', href: '#' },
-  { name: 'SERVICES', href: '#' },
-  { name: 'PLANS AND DESIGN', href: '#' },
-  { name: 'ABOUT US', href: '#' },
+  { name: 'SERVICES', href: '/#services' },
+  { name: 'ABOUT US', href: '/about-us' },
 ];
 
 const Header = () => {
