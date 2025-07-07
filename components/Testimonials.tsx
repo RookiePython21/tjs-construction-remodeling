@@ -30,7 +30,7 @@ const Testimonials = () => {
         <div className="flex flex-col gap-4">
           {testimonials.map((t, i) => (
             <div key={i} className="flex items-center justify-center">
-              <Image src={t.image} alt={`Testimonial ${i+1}`} width={600} height={384} className="w-full h-96 object-contain" />
+              <Image src={t.image} alt={`Testimonial ${i+1}`} width={600} height={384} className="w-full h-72 object-contain" />
             </div>
           ))}
         </div>
