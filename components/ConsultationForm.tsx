@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 interface ConsultationFormProps {
   isOpen: boolean;
   onClose: () => void;
+  defaultJobType?: string;
 }
 
 const jobTypes = [
@@ -17,14 +18,23 @@ const jobTypes = [
   'Other'
 ];
 
-const ConsultationForm: React.FC<ConsultationFormProps> = ({ isOpen, onClose }) => {
+const ConsultationForm: React.FC<ConsultationFormProps> = ({ isOpen, onClose, defaultJobType }) => {
   const [formData, setFormData] = useState({
     email: '',
     phone: '',
     address: '',
-    jobType: '',
+    jobType: defaultJobType || '',
     description: ''
   });
+
+  React.useEffect(() => {
+    if (isOpen) {
+      setFormData((prev) => ({
+        ...prev,
+        jobType: defaultJobType || ''
+      }));
+    }
+  }, [isOpen, defaultJobType]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
