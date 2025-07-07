@@ -91,7 +91,7 @@ const FAQs = () => {
 
         <div className="text-center mt-8">
           <p className="text-gray-600 mb-4">
-            Still have questions? We're here to help!
+            Still have questions? We&apos;re here to help!
           </p>
           <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-200 font-semibold">
             Contact Us Today

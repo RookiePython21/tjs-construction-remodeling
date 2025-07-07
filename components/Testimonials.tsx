@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const testimonials = [
   {
@@ -29,7 +30,7 @@ const Testimonials = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-3 gap-x-4">
           {testimonials.map((t, i) => (
             <div key={i} className="flex items-center justify-center">
-              <img src={t.image} alt={`Testimonial ${i+1}`} className="w-full h-48 object-contain" />
+              <Image src={t.image} alt={`Testimonial ${i+1}`} width={600} height={384} className="w-full h-96 object-contain" />
             </div>
           ))}
         </div>
