@@ -4,7 +4,7 @@ import Image from 'next/image';
 const services = [
   {
     title: 'Plans & Design',
-    image: '/Images/placeholder.svg', // Placeholder
+    image: '/Images/plan-and-design.png', // Updated image
     description: 'We help you plan and design your dream space, ensuring every detail is tailored to your needs and style.'
   },
   {
