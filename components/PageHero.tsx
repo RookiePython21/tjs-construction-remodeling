@@ -10,7 +10,7 @@ interface PageHeroProps {
 
 const PageHero = ({ title, backgroundImage }: PageHeroProps) => {
   return (
-    <section className="relative w-full h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden">
+    <section className="relative w-full h-[60vh] sm:h-[70vh] md:h-[80vh] min-h-[400px] flex items-center justify-center overflow-hidden">
       {/* Blurred Background Image */}
       <Image
         src={backgroundImage}
